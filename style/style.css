@@ -1,0 +1,498 @@
+@import 'all.min.css';
+@import 'fonts.css';
+
+:root {
+    --robo: 'Roboto';
+    --ralew: 'Raleway;';
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    background: black;
+}
+
+.first__icon {
+    font-size: 23px;
+}
+
+.header__link {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+        
+
+.header__link:hover {
+    color: red;
+}
+
+
+
+.header__p {
+    font-family: var(--robo);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+
+.icons {
+    display: flex;
+}
+
+.header__title {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+
+
+}
+
+.header__st88 {
+    border: 4px solid #06600F;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 216px;
+    height: 53px;
+    color: white;
+    font-size: 36px;
+    font-family: var(--robo);
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(10, 148, 24, 0.75);
+    margin-bottom: 11px;
+    margin-top: 12px;
+
+}
+
+.header-link__menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+
+.header-link__menu li a {
+    color: white;
+    font-size: 18px;
+    font-family: var(--ralew);
+    font-style: normal;
+    line-height: 21px;
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+
+}
+
+.menu {
+    padding: 28px 20px;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+.menu:hover {
+    color: white;
+    background: green;
+
+}
+
+
+
+.section__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../Images/food-burger-wallpaper-preview\ 1.png) no-repeat center/ cover;
+    width: 100%;
+    height: 700px;
+
+}
+
+.section__h1 {
+    color: #69CF17;
+    font-size: 72px;
+    font-family: var(--ralew);
+    font-style: normal;
+    font-weight: 900
+}
+
+.section__p1 {
+    color: #69CF17;
+    font-family: var(--ralew);
+    font-size: 36px;
+    line-height: 17px;
+    font-style: normal;
+    margin-bottom: 18px;
+    margin-top: 18px;
+
+}
+
+.section__p2 {
+    color: white;
+    font-family: var(--ralew);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+.section__div {
+    display: flex;
+    justify-content: center;
+    width: 285px;
+    height: 103px;
+    background: rgba(105, 207, 23, 0.5);
+
+}
+
+.section__coach__p {
+    font-family: var(--ralew);
+    font-style: normal;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.section__button {
+    position: absolute;
+    width: 255px;
+    height: 51px;
+    color: white;
+    margin-top: 80px;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    border-radius: 6px;
+    transition: 0.5s;
+    margin-left: 900px;
+}
+
+.section__end, 
+.section__end:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: var(--ralew);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    list-style: none;
+    margin: 0 auto;
+    margin-top: 13px;
+
+}
+
+
+
+.section__button:hover {
+    color: white;
+    background: black;
+}
+
+.black {
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+
+.burger__menu {
+    width: 100%;
+    background: #292929;
+    display: flex;
+    list-style: none;
+}
+
+.center__menu {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: var(--ralew);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-left: 21px;
+    margin-top: 21px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.center__menu:hover {
+    color: red;
+}
+
+.section__center {
+    background: #393636;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+
+}
+
+.section__burger {
+    width: 370px;
+    height: 524px;
+    background: black;
+    left: 15px;
+    top: 952px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.item {
+    width: 25%;
+    padding: 15px;
+
+}
+
+.section__burger__menu {
+    width: 100%;
+    padding: 15px 16px;
+    background: #000;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.img_div {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: green;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unnamed__img {
+    width: 100%;
+
+
+}
+
+.div__img {
+    position: relative;
+
+}
+
+
+
+.section__icon {
+    font-size: 44px;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px;
+}
+
+.section__h3 {
+    color: white;
+    font-family: var(--ralew);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    padding-top: 5px;
+}
+
+.section__text {
+    color: white;
+    font-family: var(--ralew);
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 8px;
+}
+
+.chiziq {
+    background: #393636;
+    width: 100%;
+    height: 1px;
+
+}
+
+
+
+.img_div:hover .section__icon {
+    transition: 1s;
+    opacity: 1;
+}
+
+.img_div:hover .overlay {
+    transition: 1s;
+    opacity: 1;
+}
+
+.section__icon {
+    color: silver;
+    opacity: 0;
+    font-size: 70px;
+}
+
+
+.karta__sarlovha {
+    color: yellowgreen;
+    display: flex;
+    justify-content: center;
+
+
+    font-size: 50px;
+    font-family: var(--ralew);
+}
+
+.section__f {
+    background: white;
+}
+
+.karta {
+    width: 100%;
+    height: 450px;
+}
+
+.footer__section {
+    background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+    height: 300px;
+    padding-top: 50px;
+}
+
+.footer__h {
+    border: 4px solid #06600F;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 216px;
+    height: 53px;
+    color: white;
+    font-size: 36px;
+    font-family: var(--robo);
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    
+    top: 0 auto;
+    background: rgba(10, 148, 24, 0.75);
+    margin-bottom: 60px;
+}
+
+.nomber {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 23px;
+    font-family: var(--robo);
+    font-weight: bold;
+    
+
+
+}
+
+.footer__ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: var(--robo);
+    color: white;
+
+}
+
+.footer__li {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer__li:hover {
+    color: red;
+}
+
+.footer__div {
+    background: #1A3406;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: var(--robo);
+
+}
+
+.footer__1 {
+    display: flex;
+    justify-content: space-between;
+
+}
